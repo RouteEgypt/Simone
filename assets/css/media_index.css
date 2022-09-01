@@ -1,0 +1,696 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    /* ===================== General css ========================== */
+    .container
+    {
+        width: 100%;
+    }
+    .section
+    {
+        padding: 3.5rem 0;
+    }
+    .section-heading 
+    {
+        overflow: hidden;
+    }
+    .section-heading h2
+    {
+        font-size: 73.2px;
+        line-height: 95.16px;
+    }
+    /* =========================== Navbar ============================ */
+    nav
+    {
+        position: relative;
+    }
+    .menu-mobile
+    {
+        display: flex;
+    }
+    nav ul
+    {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    nav li:hover a
+    {
+        color:#fff;
+    }
+    nav li a:hover 
+    {
+        color: #20c997;;
+    }
+    .menu-mobile:hover  ul
+    {
+        display: flex;
+    }
+    /* ======================== Home Media ===================== */
+    #home .overlay h2
+    {
+        font-size: 40.9px;
+        font-weight: 600;
+        Line-height: 53.17px;
+        margin-bottom: 1rem;
+    }
+    #home .overlay a
+    {
+        padding: 0.81rem 2rem;
+    }
+    /* ======================= About Media ====================== */
+    .about-content
+    {
+        flex-wrap: wrap;
+    }
+    .about-content .box1
+    {
+        width: 100%;
+        margin-top: 0rem;
+        text-align: center;
+    }
+    .about-content .box2
+    {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .about-content .box2 ul
+    {
+        padding-left: 0rem;
+    }
+    .about-content .box2 .about-btn
+    {
+        padding-left: 0rem;
+    }
+    .about-content .box2 .about-btn a
+    {
+        padding: 0.81rem 2rem;
+    }
+    .about-counter
+    {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .about-counter-box
+    {
+        padding: 20px 12px;
+        width: 50%;
+    }
+    .counter-line-b
+    {
+        border-bottom: 1px dotted #e0dede;
+    }
+    
+    .counter-line-r
+    {
+        border-right: none;
+    }
+    .about-counter-box h4
+    {
+        font-size: 33.3px;
+        Line-height: 43.9px;
+    }
+    /* ============================ services Media ============================== */
+    .services-content
+    {
+        margin: 0 0px;
+    }
+    .services-content-box
+    {
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .services-content-box:last-child
+    {
+        margin-bottom: 0rem;
+    }
+    /* =========================== Resume Media ========================== */
+    .resume-content
+    {
+        flex-direction: column;
+    }
+    .resume-skills-box
+    {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    /* ========================= portfolio Media ====================== */
+    #portfolio li a
+    {
+        padding: 0.6rem 0.625rem;
+        font-size: 0.875rem;
+    }
+    .portfolio-section
+    {
+        flex-direction: column;
+    }
+    .portfolio-group
+    {
+        width: 100%;
+    }    
+    /* ===================== testimonial Media ===================== */
+    .testimonial-content
+    {
+        flex-wrap: wrap;
+    }
+    .testimonial-box
+    {
+        width: 100%;
+    }
+    /* =========================== contact Media ===================== */
+    .contact-box
+    {
+        flex-wrap: wrap;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .contact-content
+    {
+        width: 100%;
+        padding: 0 0.75rem;
+        order: 1;
+    }   
+    .contact-form
+    {
+        width: 100%;
+    }
+    .form-input input:first-child
+    {
+        margin-right: 0rem;
+    }
+    .form-input input:last-child
+    {
+        margin-left: 0rem;
+    }
+    .form-control
+    {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .form-input
+    {
+        display: block;
+        margin-top: 0rem;
+    }
+    .contact-content
+    {
+        margin-top: 3rem;
+    }
+    /* ======================== footer Media ========================== */
+    #footer .container 
+    {
+        display: block;
+        text-align: center;
+    }
+    .footer-box ul
+    {
+        justify-content: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px)
+{
+    /* ===================== General css ========================== */
+    .container
+    {
+        width: 80%;
+    }
+    .section
+    {
+        padding: 4.5rem 0;
+    }
+    .section-heading h2
+    {
+        font-size: 73.2px;
+        line-height: 95.16px;
+    }
+    /* =========================== Navbar ============================ */
+    nav
+    {
+        position: relative;
+    }
+    .menu-mobile
+    {
+        display: flex;
+    }
+    nav ul
+    {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    nav li:hover a
+    {
+        color:#fff;
+    }
+    nav li a:hover 
+    {
+        color: #20c997;;
+    }
+    .menu-mobile:hover  ul
+    {
+        display: flex;
+    }
+    /* ======================== Home Media ===================== */
+    #home .overlay h2
+    {
+        font-size: 40.9px;
+        font-weight: 600;
+        Line-height: 53.17px;
+        margin-bottom: 1rem;
+    }
+    #home .overlay a
+    {
+        padding: 0.81rem 2rem;
+    }
+    /* ======================= About Media ====================== */
+    .about-content
+    {
+        flex-wrap: wrap;
+    }
+    .about-content .box1
+    {
+        width: 100%;
+        margin-top: 0rem;
+        text-align: center;
+    }
+    .about-content .box2
+    {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .about-content .box2 ul
+    {
+        padding-left: 0rem;
+    }
+    .about-content .box2 .about-btn
+    {
+        padding-left: 0rem;
+    }
+    .about-content .box2 .about-btn a
+    {
+        padding: 0.81rem 2rem;
+    }
+    .about-counter
+    {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .about-counter-box
+    {
+        padding: 20px 12px;
+        width: 50%;
+    }
+    .counter-line-b
+    {
+        border-bottom: 1px dotted #e0dede;
+    }
+    
+    .counter-line-r
+    {
+        border-right: none;
+    }
+    .about-counter-box h4
+    {
+        font-size: 33.3px;
+        Line-height: 43.9px;
+    }
+    /* ============================ services Media ============================== */
+    .services-content
+    {
+        margin: 0 0px;
+    }
+    .services-content-box
+    {
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    .services-content-box:last-child
+    {
+        margin-bottom: 0rem;
+    }
+    /* =========================== Resume Media ========================== */
+    .resume-content
+    {
+        flex-direction: column;
+    }
+    .resume-skills-box
+    {
+        width: 100%;
+        padding: 0 1rem;
+    }
+    /* ========================= portfolio Media ====================== */
+    #portfolio li a
+    {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+    }
+    .portfolio-section
+    {
+        flex-direction: row;
+    }
+    .portfolio-group
+    {
+        width: 50%;
+    }    
+    .portfolio-group:last-child
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    .portfolio-group:last-child .portfolio-box
+    {
+        width: 50%;
+    } 
+    .box-translate-1
+    {
+        transform: translatey(-75%);
+        -webkit-transform: translatey(-75%);
+        -moz-transform: translatey(-75%);
+        -ms-transform: translatey(-75%);
+        -o-transform: translatey(-75%);
+    }
+    .box-translate-2
+    {
+        transform: translatey(-50%);
+        -webkit-transform: translatey(-50%);
+        -moz-transform: translatey(-50%);
+        -ms-transform: translatey(-50%);
+        -o-transform: translatey(-50%);
+    }
+    /* ===================== testimonial Media ===================== */
+    .testimonial-content
+    {
+        flex-wrap: wrap;
+    }
+    .testimonial-box
+    {
+        width: 100%;
+    }
+    /* =========================== contact Media ===================== */
+    .contact-box
+    {
+        flex-wrap: wrap;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .contact-content
+    {
+        width: 100%;
+        padding: 0 0.75rem;
+        order: 1;
+    }   
+    .contact-form
+    {
+        width: 100%;
+    }
+    .form-input input:first-child
+    {
+        margin-right: 0rem;
+    }
+    .form-input input:last-child
+    {
+        margin-left: 0rem;
+    }
+    .form-control
+    {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .form-input
+    {
+        display: block;
+        margin-top: 0rem;
+    }
+    .contact-content
+    {
+        margin-top: 3rem;
+    }
+    /* ======================== footer Media ========================== */
+    #footer .container 
+    {
+        display: block;
+        text-align: center;
+    }
+    .footer-box ul
+    {
+        justify-content: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+     /* ===================== General css ========================== */
+     .container
+     {
+         width: 80%;
+     }
+     .section
+     {
+         padding: 4.5rem 0;
+     }
+     .section-heading h2
+     {
+        font-size: 100.416px;
+        line-height: 1.3;
+     }
+     /* =========================== Navbar ============================ */
+     nav
+     {
+         position: relative;
+     }
+     .menu-mobile
+     {
+         display: flex;
+     }
+     nav ul
+     {
+         display: none;
+         flex-direction: column;
+         position: absolute;
+         width: 100%;
+         left: 0;
+         top: 0;
+     }
+     nav li:hover a
+     {
+         color:#fff;
+     }
+     nav li a:hover 
+     {
+         color: #20c997;;
+     }
+     .menu-mobile:hover  ul
+     {
+         display: flex;
+     }
+     /* ======================== Home Media ===================== */
+     #home .overlay h2
+     {
+         font-size: 56.74px;
+         font-weight: 600;
+         Line-height: 73.762px;
+         margin-bottom: 1rem;
+     }
+     #home .overlay a
+     {
+         padding: 0.81rem 2rem;
+     }
+     /* ======================= About Media ====================== */
+     .about-content
+     {
+         flex-wrap: wrap;
+     }
+     .about-content .box1
+     {
+         width: 100%;
+         margin-top: 0rem;
+         text-align: center;
+     }
+     .about-content .box2
+     {
+         width: 100%;
+         margin-top: 3rem;
+     }
+     .about-content .box2 ul
+     {
+         padding-left: 0rem;
+     }
+     .about-content .box2 .about-btn
+     {
+         padding-left: 0rem;
+     }
+     .about-content .box2 .about-btn a
+     {
+         padding: 0.81rem 2rem;
+     }
+     .about-counter
+     {
+         flex-wrap: wrap;
+         width: 95%;
+         margin: auto;
+         margin-top: 3rem;
+     }
+     .about-counter-box
+     {
+         padding: 20px 12px;
+         width: 25%;
+     }
+     .counter-line-b
+     {
+         border-bottom: none
+     }
+     
+     .counter-line-r
+     {
+         border-right: 1px dotted #e0dede;
+     }
+     .about-counter-box h4
+     {
+         font-size: 43.38px;
+         Line-height: 56.394px;
+     }
+     /* ============================ services Media ============================== */
+     .services-content
+     {
+         margin: 0 0px;
+     }
+     .services-content-box
+     {
+         width: 50%;
+         margin-top: 0rem;
+         margin-bottom: 3rem;
+     }
+     .services-content-box:last-child
+     {
+         margin-bottom: 0rem;
+     }
+     /* =========================== Resume Media ========================== */
+     .resume-content
+     {
+         flex-direction: row;
+     }
+     .resume-skills-box
+     {
+         width: 50%;
+         padding: 0 1rem;
+     }
+     /* ========================= portfolio Media ====================== */
+     #portfolio li a
+     {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+     }
+     .portfolio-section
+     {
+         flex-direction: row;
+     }
+     .portfolio-group
+     {
+         width: 50%;
+     }    
+     .portfolio-group:last-child
+     {
+         width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+     }   
+     .portfolio-group:last-child .portfolio-box
+     {
+         width: 50%;
+     }   
+     .box-translate-1
+     {
+         transform: translatey(-75%);
+         -webkit-transform: translatey(-75%);
+         -moz-transform: translatey(-75%);
+         -ms-transform: translatey(-75%);
+         -o-transform: translatey(-75%);
+     }
+     .box-translate-2
+     {
+         transform: translatey(-50%);
+         -webkit-transform: translatey(-50%);
+         -moz-transform: translatey(-50%);
+         -ms-transform: translatey(-50%);
+         -o-transform: translatey(-50%);
+     }
+     /* ===================== testimonial Media ===================== */
+     .testimonial-content
+     {
+         flex-wrap: wrap;
+     }
+     .testimonial-box
+     {
+         width: 100%;
+     }
+     /* =========================== contact Media ===================== */
+     .contact-box
+     {
+         flex-wrap: wrap;
+         text-align: left;
+         width: 100%;
+         margin-top: 3rem;
+     }
+     .contact-content
+     {
+         width: 33.33333333%;
+         padding: 0 0rem;
+         order: 0;
+     }   
+     .contact-form
+     {
+         width: 66.666666666%;
+     }
+     .form-input input:first-child
+     {
+         margin-right: 0rem;
+     }
+     .form-input input:last-child
+     {
+         margin-left: 0rem;
+     }
+     .form-control
+     {
+         width: 100%;
+         margin-top: 1.5rem;
+     }
+     .form-input
+     {
+         display: block;
+         margin-top: 0rem;
+     }
+     .contact-content
+     {
+         margin-top: 3rem;
+     }
+     /* ======================== footer Media ========================== */
+     #footer .container 
+     {
+         display: block;
+         text-align: center;
+     }
+     .footer-box ul
+     {
+         justify-content: center;
+     }
+}
